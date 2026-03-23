@@ -2444,12 +2444,6 @@
 		(uuid "314ae03d-c891-4d6a-9947-d6eb314abb0f")
 	)
 	(junction
-		(at 245.11 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32bf6b13-6c63-424a-82be-78a9a487bf9a")
-	)
-	(junction
 		(at 210.82 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2484,6 +2478,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49327c24-88e4-4b4e-afdc-fbc5606cae15")
+	)
+	(junction
+		(at 251.46 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa9a58b-5b18-4d6a-ac85-8cb4a35ff05e")
 	)
 	(junction
 		(at 209.55 62.23)
@@ -2923,6 +2923,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 90.17) (xy 251.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b00c7cd-d9e7-48d9-b4f6-812bea12d18a")
+	)
+	(wire
+		(pts
 			(xy 166.37 17.78) (xy 166.37 20.32)
 		)
 		(stroke
@@ -3263,7 +3273,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 86.36) (xy 251.46 92.71)
+			(xy 251.46 86.36) (xy 251.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3430,6 +3440,16 @@
 			(type default)
 		)
 		(uuid "70277eec-dbd0-4006-b413-942d672e3465")
+	)
+	(wire
+		(pts
+			(xy 242.57 90.17) (xy 251.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7034b693-32a5-4b00-b6c4-bf1ad76f95fd")
 	)
 	(wire
 		(pts
@@ -3680,6 +3700,16 @@
 			(type default)
 		)
 		(uuid "96c6cb72-86ec-4c8b-9a4a-ad79ecaff697")
+	)
+	(wire
+		(pts
+			(xy 242.57 118.11) (xy 242.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976feae8-beab-4b32-81de-e665a1549106")
 	)
 	(wire
 		(pts
@@ -3980,16 +4010,6 @@
 			(type default)
 		)
 		(uuid "cd9d21a3-64fd-4eef-b783-974d40e15d68")
-	)
-	(wire
-		(pts
-			(xy 242.57 118.11) (xy 245.11 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfe267b7-f211-46a2-89dd-8ca514c6d31d")
 	)
 	(wire
 		(pts
@@ -4662,7 +4682,7 @@
 		)
 		(uuid "03572b53-672d-490f-ab4d-3160e8bd3102")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "SPI1_SCLK"
 		(shape input)
 		(at 264.16 133.35 0)
 		(effects
@@ -4838,7 +4858,7 @@
 		)
 		(uuid "95870ccd-5588-4ee4-9510-d40107216931")
 	)
-	(hierarchical_label "SDO"
+	(hierarchical_label "SPI1_MOSI"
 		(shape input)
 		(at 264.16 128.27 0)
 		(effects
@@ -4860,7 +4880,7 @@
 		)
 		(uuid "ec4c0a1d-09f1-4a2a-806e-c70b08eda7e7")
 	)
-	(hierarchical_label "SDI"
+	(hierarchical_label "SPI1_MISO"
 		(shape input)
 		(at 264.16 130.81 0)
 		(effects

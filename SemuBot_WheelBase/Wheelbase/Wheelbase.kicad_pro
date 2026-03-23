@@ -60,14 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|101675000|69600000|7bbcdfb6-7bca-46d3-8c94-347eb5df36b8|4ffbc488-047d-418e-a1fb-7690aeba009f",
-          ""
-        ],
-        [
-          "silk_edge_clearance|101675000|78540000|7bbcdfb6-7bca-46d3-8c94-347eb5df36b8|5b34f7b7-532f-4440-84a1-d597d8074250",
-          ""
-        ],
-        [
           "solder_mask_bridge|107465000|71170000|ba9d4568-df27-4414-87a4-1f03886e15bb|b72facfe-1219-45fa-8486-3285eec96486",
           ""
         ],
@@ -154,7 +146,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",

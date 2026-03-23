@@ -6233,16 +6233,8 @@
 		(uuid "5ff2c762-cd64-4f64-a6aa-4b38293963c5")
 	)
 	(no_connect
-		(at 100.33 77.47)
-		(uuid "710cfe7f-6de1-4f3e-bd80-e987db461dfc")
-	)
-	(no_connect
 		(at 100.33 120.65)
 		(uuid "747a46ec-5e5b-45ba-8873-f9091f882462")
-	)
-	(no_connect
-		(at 135.89 110.49)
-		(uuid "84f60747-4212-4404-b745-6e39da5360e6")
 	)
 	(no_connect
 		(at 100.33 90.17)
@@ -6374,7 +6366,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 97.79) (xy 138.43 97.79)
+			(xy 135.89 97.79) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6974,6 +6966,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 77.47) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601d69fa-457f-4b07-b507-5988846b7ebf")
+	)
+	(wire
+		(pts
 			(xy 140.97 92.71) (xy 135.89 92.71)
 		)
 		(stroke
@@ -7161,6 +7163,16 @@
 			(type default)
 		)
 		(uuid "7c879e1c-8a46-416e-a7f6-3badca58e3bc")
+	)
+	(wire
+		(pts
+			(xy 139.7 110.49) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6f0fb0-b1f4-4f83-8262-15559035e836")
 	)
 	(wire
 		(pts
@@ -8322,7 +8334,7 @@
 		)
 		(uuid "131e68e7-f42a-4bd9-9d94-1c74dbede5a6")
 	)
-	(label "MCU_CS"
+	(label "SPI3_NSS"
 		(at 313.69 233.68 180)
 		(effects
 			(font
@@ -8392,7 +8404,7 @@
 		)
 		(uuid "1ffe69ad-71c0-45a5-8488-b85fe4dd2a3e")
 	)
-	(label "SPI_DATA"
+	(label "SSI_DATA"
 		(at 367.03 129.54 180)
 		(effects
 			(font
@@ -8421,6 +8433,16 @@
 			(justify right bottom)
 		)
 		(uuid "24fae146-38ac-41d0-b73a-d859ff3ce62b")
+	)
+	(label "SSI_CLK"
+		(at 99.06 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2751fbd7-a826-4620-9f2b-3db9fafaacac")
 	)
 	(label "motor1_Cs"
 		(at 139.7 82.55 0)
@@ -8502,6 +8524,16 @@
 		)
 		(uuid "3ec830f8-8259-4f4d-bf8c-d7aac1d10601")
 	)
+	(label "SSI_DATA"
+		(at 139.7 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43865daa-0a95-41aa-a748-750370783120")
+	)
 	(label "motor3_Cs"
 		(at 139.7 105.41 0)
 		(effects
@@ -8562,7 +8594,7 @@
 		)
 		(uuid "55cc593e-ccb3-4af8-ade1-54d3ac7fe1f1")
 	)
-	(label "SPI_CLK"
+	(label "SSI_CLK"
 		(at 367.03 132.08 180)
 		(effects
 			(font
@@ -8592,8 +8624,8 @@
 		)
 		(uuid "5fbe857f-c7c9-4f78-a9a9-9959c3a56ac9")
 	)
-	(label "MCU_CS"
-		(at 138.43 97.79 0)
+	(label "SPI3_NSS"
+		(at 140.97 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8652,7 +8684,7 @@
 		)
 		(uuid "7a88c361-1523-48d6-83b3-782239b67db9")
 	)
-	(label "SPI_CLK"
+	(label "SSI_CLK"
 		(at 367.03 109.22 180)
 		(effects
 			(font
@@ -8812,7 +8844,7 @@
 		)
 		(uuid "9ade4eff-0044-4e03-88a0-c2fd496157f0")
 	)
-	(label "SPI_DATA"
+	(label "SSI_DATA"
 		(at 367.03 106.68 180)
 		(effects
 			(font
@@ -8962,7 +8994,7 @@
 		)
 		(uuid "c393c722-0f59-4d8c-b159-7b94248a47b6")
 	)
-	(label "SPI_CLK"
+	(label "SSI_CLK"
 		(at 367.03 153.67 180)
 		(effects
 			(font
@@ -8972,7 +9004,7 @@
 		)
 		(uuid "cb85f8e0-f057-444d-9e87-8662af7f2fa3")
 	)
-	(label "SPI_DATA"
+	(label "SSI_DATA"
 		(at 367.03 151.13 180)
 		(effects
 			(font
