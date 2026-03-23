@@ -502,11 +502,12 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q19"
-				(at 12.7 7.62 0)
+				(at 11.684 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "AON7262E"
@@ -515,6 +516,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "AON7262E"
@@ -596,20 +598,230 @@
 					(hide yes)
 				)
 			)
-			(symbol "AON7262E_1_1"
-				(rectangle
-					(start 5.08 -2.54)
-					(end 24.13 -13.97)
+			(property "DESCRIPTION" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_NAME" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PRICE-STOCK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AON7262E_0_1"
+				(polyline
+					(pts
+						(xy -1.016 1.905) (xy -1.016 -1.905)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy -0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AON7262E_1_1"
 				(pin passive line
-					(at 0 -7.62 0)
+					(at -7.62 0 0)
 					(length 5.08)
 					(name "G"
 						(effects
@@ -627,8 +839,423 @@
 					)
 				)
 				(pin passive line
+					(at 1.27 7.62 270)
+					(length 5.08)
+					(name "D_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -7.62 90)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AON7262E_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q2"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AON7262E"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AON7262E"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
+				(at -44.45 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AON7262E"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_NAME" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PRICE-STOCK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AON7262E_1_0_1"
+				(polyline
+					(pts
+						(xy -2.286 1.905) (xy -2.286 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.889 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AON7262E_1_1_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "D_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 6.35 2.54 270)
 					(length 5.08)
+					(hide yes)
 					(name "D_1"
 						(effects
 							(font
@@ -647,6 +1274,7 @@
 				(pin passive line
 					(at 8.89 2.54 270)
 					(length 5.08)
+					(hide yes)
 					(name "D_2"
 						(effects
 							(font
@@ -665,6 +1293,7 @@
 				(pin passive line
 					(at 10.16 -19.05 90)
 					(length 5.08)
+					(hide yes)
 					(name "S_1"
 						(effects
 							(font
@@ -683,6 +1312,7 @@
 				(pin passive line
 					(at 11.43 2.54 270)
 					(length 5.08)
+					(hide yes)
 					(name "D_3"
 						(effects
 							(font
@@ -701,6 +1331,7 @@
 				(pin passive line
 					(at 12.7 -19.05 90)
 					(length 5.08)
+					(hide yes)
 					(name "S_2"
 						(effects
 							(font
@@ -719,6 +1350,7 @@
 				(pin passive line
 					(at 13.97 2.54 270)
 					(length 5.08)
+					(hide yes)
 					(name "D_4"
 						(effects
 							(font
@@ -735,26 +1367,9 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -19.05 90)
-					(length 5.08)
-					(name "S_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 16.51 2.54 270)
 					(length 5.08)
+					(hide yes)
 					(name "D_5"
 						(effects
 							(font
@@ -773,6 +1388,7 @@
 				(pin passive line
 					(at 19.05 2.54 270)
 					(length 5.08)
+					(hide yes)
 					(name "D_6"
 						(effects
 							(font
@@ -788,8 +1404,352 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AON7262E_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "AON7262E"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "AON7262E"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
+				(at -6.35 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AON7262E"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_NAME" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PRICE-STOCK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AON7262E_2_0_1"
+				(polyline
+					(pts
+						(xy -2.286 1.905) (xy -2.286 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.889 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AON7262E_2_1_1"
 				(pin passive line
-					(at 21.59 2.54 270)
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
 					(length 5.08)
 					(name "D_7"
 						(effects
@@ -799,6 +1759,1164 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AON7262E_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q5"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "AON7262E"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "AON7262E"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
+				(at -6.35 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AON7262E"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_NAME" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PRICE-STOCK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AON7262E_3_0_1"
+				(polyline
+					(pts
+						(xy -2.286 1.905) (xy -2.286 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.889 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AON7262E_3_1_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "D_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AON7262E_4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q6"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "AON7262E"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "AON7262E"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
+				(at -6.35 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AON7262E"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_NAME" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PRICE-STOCK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AON7262E_4_0_1"
+				(polyline
+					(pts
+						(xy -1.016 1.905) (xy -1.016 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy -0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AON7262E_4_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 7.62 270)
+					(length 5.08)
+					(name "D_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -7.62 90)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AON7262E_5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q3"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "AON7262E"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "AON7262E"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
+				(at -6.35 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AON7262E"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_NAME" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PRICE-STOCK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AON7262E_5_0_1"
+				(polyline
+					(pts
+						(xy -1.016 1.905) (xy -1.016 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy -0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AON7262E_5_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 7.62 270)
+					(length 5.08)
+					(name "D_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -7.62 90)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2414,7 +4532,7 @@
 		(uuid "0f0509ba-eb60-4437-a7fc-1978fce562c1")
 	)
 	(junction
-		(at 147.32 133.35)
+		(at 212.09 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12145c45-eb09-47b3-8f54-16ae815e68d5")
@@ -2426,40 +4544,10 @@
 		(uuid "1e0a37d3-088d-498a-8f9c-d0c0fbd08400")
 	)
 	(junction
-		(at 153.67 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ea4f9d2-78bf-4f41-89bf-2bfd48c9382d")
-	)
-	(junction
-		(at 166.37 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fa23c57-27ba-4535-9f0e-c26321895ade")
-	)
-	(junction
-		(at 147.32 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "314ae03d-c891-4d6a-9947-d6eb314abb0f")
-	)
-	(junction
-		(at 210.82 92.71)
+		(at 190.5 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "332a4c2e-62cb-4d7c-9e98-c15b6f1d09c3")
-	)
-	(junction
-		(at 146.05 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3458cded-0160-4ed7-8342-cb4f1d8f1f96")
-	)
-	(junction
-		(at 210.82 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d7a80a8-c18a-48fe-a034-4316ed4e425b")
 	)
 	(junction
 		(at 208.28 139.7)
@@ -2468,46 +4556,16 @@
 		(uuid "3dba2af7-78ee-4f8c-857e-170b1728209f")
 	)
 	(junction
-		(at 214.63 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48307e17-935c-4079-a949-f77c191e5b13")
-	)
-	(junction
-		(at 212.09 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49327c24-88e4-4b4e-afdc-fbc5606cae15")
-	)
-	(junction
 		(at 251.46 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aa9a58b-5b18-4d6a-ac85-8cb4a35ff05e")
 	)
 	(junction
-		(at 209.55 62.23)
+		(at 212.09 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50dd0bb3-27af-4482-866d-d8de645bc08e")
-	)
-	(junction
-		(at 217.17 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51806b86-1324-4ef2-9ffb-3a10e8bf6006")
-	)
-	(junction
-		(at 162.56 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51ac2a9e-9669-4095-a657-30ad88997028")
-	)
-	(junction
-		(at 214.63 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5475e728-97fa-4305-ae12-7c5a7abb4d42")
+		(uuid "59904c73-1814-4c36-8825-659fdadcf6d8")
 	)
 	(junction
 		(at 229.87 102.87)
@@ -2522,64 +4580,16 @@
 		(uuid "604eab24-6f35-45bd-befa-784315c9ea7a")
 	)
 	(junction
-		(at 163.83 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60e49c25-eb23-49a9-b97f-1f374acda20b")
-	)
-	(junction
-		(at 167.64 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6904370f-fffb-4f7b-871f-1f913cb4a65f")
-	)
-	(junction
 		(at 237.49 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7182d035-1395-412c-ab4c-8c92fb9ca072")
 	)
 	(junction
-		(at 166.37 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "728d00eb-97f4-469c-9033-86ab47a1eb1a")
-	)
-	(junction
-		(at 17.78 31.75)
+		(at 26.67 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "787a34e1-5c7e-43eb-8dbb-06b46d2455c4")
-	)
-	(junction
-		(at 210.82 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b2e2f69-055e-4b3f-b4ae-3edd63a30e15")
-	)
-	(junction
-		(at 210.82 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d82451b-c3ba-49f0-be54-a34fc019a43a")
-	)
-	(junction
-		(at 152.4 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "839c34d6-475c-410c-b48c-cdab6f40e2ef")
-	)
-	(junction
-		(at 210.82 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b7a412f-3fd7-4b0e-9cbe-42924fb205fa")
-	)
-	(junction
-		(at 207.01 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "932190ad-7622-415c-acc1-8b4983469203")
 	)
 	(junction
 		(at 34.29 153.67)
@@ -2588,22 +4598,10 @@
 		(uuid "95ed8f33-6811-47bf-a685-c7228ecf5a8e")
 	)
 	(junction
-		(at 212.09 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97af2922-2e0d-447c-83b8-436be07eaeab")
-	)
-	(junction
 		(at 237.49 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c468d5f-86eb-446a-9513-b13699ca8802")
-	)
-	(junction
-		(at 168.91 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dd43665-df29-474b-ac9a-7c1583606ce1")
 	)
 	(junction
 		(at 219.71 128.27)
@@ -2612,25 +4610,13 @@
 		(uuid "a1576547-0857-478f-9853-1edffb8ce8e5")
 	)
 	(junction
-		(at 170.18 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a19f9dbb-9887-4138-9186-d082e24c5a3d")
-	)
-	(junction
-		(at 217.17 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aba89764-d3f3-4bfe-81ca-c803ebb4a77d")
-	)
-	(junction
 		(at 82.55 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abbc6828-760e-4189-82bb-6c2251c9d2f5")
 	)
 	(junction
-		(at 30.48 31.75)
+		(at 39.37 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "add2d7e9-996c-4f28-946f-7c4e9e60b99f")
@@ -2648,106 +4634,22 @@
 		(uuid "b01580e5-4974-42cd-a448-0e961e30349d")
 	)
 	(junction
-		(at 147.32 137.16)
+		(at 162.56 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b116a178-22df-4a4e-8e29-77b2882e09da")
+		(uuid "b11cec0d-e8aa-483f-b49b-e8003559f469")
 	)
 	(junction
-		(at 149.86 137.16)
+		(at 162.56 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b14f0008-4b5c-4c97-9c92-7b7baa69815c")
+		(uuid "bbd1f1fa-5ea4-4b06-9608-1f8189a44d91")
 	)
 	(junction
-		(at 209.55 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b258f878-3b9d-4beb-b311-663dc9c59e78")
-	)
-	(junction
-		(at 146.05 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5088881-53bc-420e-a7cc-b3cc8e4b1082")
-	)
-	(junction
-		(at 162.56 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b55f6a10-03f5-4400-bf0c-f1d9c558c482")
-	)
-	(junction
-		(at 146.05 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b69c6d85-6a2f-4e40-83f6-3da8171061ec")
-	)
-	(junction
-		(at 151.13 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9a4eb3c-a548-46d6-a4c5-d33ac62f0a98")
-	)
-	(junction
-		(at 160.02 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba718f24-b48f-468d-90e6-57ad8e542b1d")
-	)
-	(junction
-		(at 163.83 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb4f1d6e-98eb-4975-aadf-a3c10aef0eb2")
-	)
-	(junction
-		(at 165.1 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1b5bb04-916b-4397-8ff1-4995d0570bfe")
-	)
-	(junction
-		(at 162.56 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8f915f0-984b-410a-a4cd-34fb9003363f")
-	)
-	(junction
-		(at 210.82 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca0bb6d1-0418-47f1-9934-80d53f43927c")
-	)
-	(junction
-		(at 163.83 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb050237-bc8b-48df-a16a-418f32b977f7")
-	)
-	(junction
-		(at 210.82 85.09)
+		(at 190.5 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc240548-3c5a-4176-94de-a6d2443a695b")
-	)
-	(junction
-		(at 144.78 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc525eef-deb9-4f38-8668-6c084615f915")
-	)
-	(junction
-		(at 142.24 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d89fe5c4-ac4a-4da3-95fa-e3b857f9522f")
-	)
-	(junction
-		(at 207.01 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daaf39f5-889e-45c5-bb8d-c6a4cfebae7f")
 	)
 	(junction
 		(at 34.29 118.11)
@@ -2756,31 +4658,13 @@
 		(uuid "db6f5f0e-86d2-41c4-8ed8-4a8b8ed78912")
 	)
 	(junction
-		(at 210.82 50.8)
+		(at 190.5 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd5ac889-0588-41e2-b7d4-574d38d939e6")
 	)
 	(junction
-		(at 143.51 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e208bf96-9d62-4791-b4d4-de8d1898b4d4")
-	)
-	(junction
-		(at 148.59 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e392651c-95ea-402f-8a1b-e11bd3b754ff")
-	)
-	(junction
-		(at 158.75 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4e8c83d-8ac9-44d1-ab41-e83b7bc0c1e7")
-	)
-	(junction
-		(at 162.56 83.82)
+		(at 162.56 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7fae220-1ed3-40a7-9555-b330d102fb57")
@@ -2792,13 +4676,7 @@
 		(uuid "ea68923e-dc74-4fc4-b7f6-d581a8b56baf")
 	)
 	(junction
-		(at 161.29 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecf0fd36-37bc-4a7c-b78b-f2352b81ef10")
-	)
-	(junction
-		(at 146.05 176.53)
+		(at 212.09 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcf00784-782c-406e-9172-082bf7479303")
@@ -2823,13 +4701,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 48.26) (xy 210.82 48.26)
+			(xy 162.56 53.34) (xy 167.64 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ca816b8-99f4-4fbf-83d6-133f0675d192")
+		(uuid "05371765-53a0-4a30-a276-de4a79f90cfa")
 	)
 	(wire
 		(pts
@@ -2843,46 +4721,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 49.53) (xy 210.82 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7cd7f8-70d9-4f07-8ef7-515971264228")
-	)
-	(wire
-		(pts
-			(xy 217.17 26.67) (xy 219.71 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101e221c-e240-41ef-8131-49c5c15932ab")
-	)
-	(wire
-		(pts
-			(xy 142.24 137.16) (xy 144.78 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11d91cab-65d4-4347-9fcb-7248ca433f5e")
-	)
-	(wire
-		(pts
-			(xy 160.02 73.66) (xy 162.56 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12ead0c4-8659-4270-865c-bea13205e7b0")
-	)
-	(wire
-		(pts
 			(xy 259.08 125.73) (xy 264.16 125.73)
 		)
 		(stroke
@@ -2890,36 +4728,6 @@
 			(type default)
 		)
 		(uuid "1574e8f9-3652-4051-a666-daf6f8bba2d0")
-	)
-	(wire
-		(pts
-			(xy 162.56 73.66) (xy 165.1 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15ee6425-c1b2-45cb-b7f6-ad91134c3bda")
-	)
-	(wire
-		(pts
-			(xy 151.13 100.33) (xy 151.13 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16ec5448-274c-486f-8687-8750d9844705")
-	)
-	(wire
-		(pts
-			(xy 147.32 130.81) (xy 149.86 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "184c9c11-3123-4c63-835e-fecd22087a6a")
 	)
 	(wire
 		(pts
@@ -2933,33 +4741,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 17.78) (xy 166.37 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b1b5886-9f39-4609-b32c-0788f9780025")
-	)
-	(wire
-		(pts
-			(xy 210.82 83.82) (xy 210.82 85.09)
+			(xy 190.5 68.58) (xy 190.5 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b63b5b6-cdf5-484c-9ef6-c7ef355824d3")
-	)
-	(wire
-		(pts
-			(xy 207.01 62.23) (xy 209.55 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b7dbb51-bf7a-408e-b7ef-825dcf909657")
 	)
 	(wire
 		(pts
@@ -2983,66 +4771,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 62.23) (xy 207.01 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20746dea-cbca-4665-9bea-3572b1b39efa")
-	)
-	(wire
-		(pts
-			(xy 146.05 109.22) (xy 148.59 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26a3b284-7f9b-469b-8de0-e2ed5a1770b4")
-	)
-	(wire
-		(pts
-			(xy 166.37 52.07) (xy 168.91 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285077f7-0993-4b57-a4ed-2130d7eb4dfd")
-	)
-	(wire
-		(pts
-			(xy 146.05 30.48) (xy 151.13 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2d1a01-2cc7-46dc-8a98-6cda0e5abf62")
-	)
-	(wire
-		(pts
-			(xy 153.67 109.22) (xy 156.21 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d52c436-1476-4c27-8d2b-4b2e1c0ddc2d")
-	)
-	(wire
-		(pts
-			(xy 163.83 41.91) (xy 163.83 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "315856d3-9654-4edc-b49e-6231618b15ba")
-	)
-	(wire
-		(pts
 			(xy 237.49 86.36) (xy 240.03 86.36)
 		)
 		(stroke
@@ -3063,13 +4791,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 20.32) (xy 170.18 20.32)
+			(xy 162.56 36.83) (xy 162.56 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3485ae90-90aa-4fa0-808d-62c9c0b7f300")
+		(uuid "32e51d0f-bcb6-4255-ac9e-7656450fb274")
 	)
 	(wire
 		(pts
@@ -3083,7 +4811,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 92.71) (xy 210.82 92.71)
+			(xy 182.88 77.47) (xy 190.5 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3113,23 +4841,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 26.67) (xy 214.63 26.67)
+			(xy 190.5 53.34) (xy 193.04 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c7b1623-5f0b-4f7e-bd13-3a39cbc21f4b")
-	)
-	(wire
-		(pts
-			(xy 146.05 158.75) (xy 148.59 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ddec96a-bfed-447c-b0e8-dcb66b0db4b4")
+		(uuid "3e631c66-e259-4c20-9820-a630e690a053")
 	)
 	(wire
 		(pts
@@ -3143,16 +4861,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 52.07) (xy 161.29 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4494111d-1acc-4c80-9431-0a072ff3a093")
-	)
-	(wire
-		(pts
 			(xy 113.03 118.11) (xy 113.03 120.65)
 		)
 		(stroke
@@ -3163,6 +4871,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 60.96) (xy 203.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45979fab-85a8-41c0-a61c-821e8cc5da67")
+	)
+	(wire
+		(pts
 			(xy 208.28 139.7) (xy 208.28 140.97)
 		)
 		(stroke
@@ -3170,16 +4888,6 @@
 			(type default)
 		)
 		(uuid "47bcd1fc-3a05-448a-95c3-797c57401042")
-	)
-	(wire
-		(pts
-			(xy 160.02 20.32) (xy 162.56 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d12231-6bf7-47a0-8912-064e13562ed1")
 	)
 	(wire
 		(pts
@@ -3203,23 +4911,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 176.53) (xy 146.05 176.53)
+			(xy 201.93 78.74) (xy 212.09 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "514c54c9-bb7f-453d-bf4d-e892ec623f24")
-	)
-	(wire
-		(pts
-			(xy 217.17 62.23) (xy 219.71 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51533b9e-a0f1-474f-a1db-cce2cdcedd6e")
 	)
 	(wire
 		(pts
@@ -3233,43 +4931,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 93.98) (xy 210.82 92.71)
+			(xy 190.5 78.74) (xy 190.5 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53eefd3a-e9d9-421a-85fc-12de61512ee3")
-	)
-	(wire
-		(pts
-			(xy 210.82 26.67) (xy 212.09 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f2bfab-2e2a-4504-8341-4c614d10bcbb")
-	)
-	(wire
-		(pts
-			(xy 168.91 52.07) (xy 171.45 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "550845d4-09c1-45f9-bfa7-7d7def36f49e")
-	)
-	(wire
-		(pts
-			(xy 214.63 62.23) (xy 217.17 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5591cb08-cbf8-4d40-8e72-4d5fd34df8a6")
 	)
 	(wire
 		(pts
@@ -3283,17 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 72.39) (xy 198.12 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58804978-4b43-46a4-8935-c6f4e2273615")
-	)
-	(wire
-		(pts
-			(xy 152.4 74.93) (xy 162.56 74.93)
+			(xy 152.4 68.58) (xy 162.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3333,17 +4991,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 130.81) (xy 147.32 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60a031c2-c863-411c-94de-f20d1efd7ff6")
-	)
-	(wire
-		(pts
-			(xy 210.82 48.26) (xy 210.82 49.53)
+			(xy 190.5 50.8) (xy 190.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3353,33 +5001,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 52.07) (xy 163.83 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b91216-13f0-4e4b-adf9-d3b68c36366e")
-	)
-	(wire
-		(pts
-			(xy 17.78 31.75) (xy 30.48 31.75)
+			(xy 26.67 88.9) (xy 39.37 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66902f70-368b-4779-932d-b2a654a5a69a")
-	)
-	(wire
-		(pts
-			(xy 139.7 137.16) (xy 142.24 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67e24c39-1d33-484f-887f-786f32d21906")
 	)
 	(wire
 		(pts
@@ -3403,6 +5031,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 45.72) (xy 153.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c59774d-d1b9-4607-a878-8f1793780d4d")
+	)
+	(wire
+		(pts
 			(xy 220.98 102.87) (xy 220.98 105.41)
 		)
 		(stroke
@@ -3413,7 +5051,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 167.64) (xy 146.05 167.64)
+			(xy 201.93 69.85) (xy 212.09 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3423,17 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 83.82) (xy 210.82 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3505c8-284a-4a7f-ac85-c6acb011404d")
-	)
-	(wire
-		(pts
-			(xy 162.56 74.93) (xy 162.56 76.2)
+			(xy 162.56 68.58) (xy 162.56 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3473,16 +5101,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 26.67) (xy 210.82 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "725e6e63-7292-4656-bfb3-fe2a97a6ad36")
-	)
-	(wire
-		(pts
 			(xy 234.95 113.03) (xy 220.98 113.03)
 		)
 		(stroke
@@ -3493,36 +5111,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 158.75) (xy 146.05 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7548ce22-b94e-4aa4-a1ef-6bf44c7cc7f8")
-	)
-	(wire
-		(pts
-			(xy 128.27 147.32) (xy 133.35 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "763142f1-5f35-4721-8bc6-5379457117cb")
-	)
-	(wire
-		(pts
-			(xy 148.59 109.22) (xy 151.13 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79799314-a1e9-4337-b5f1-31d49efa14f4")
-	)
-	(wire
-		(pts
 			(xy 220.98 100.33) (xy 220.98 102.87)
 		)
 		(stroke
@@ -3530,26 +5118,6 @@
 			(type default)
 		)
 		(uuid "7a63a857-9ed3-40e4-990e-e381c775ec63")
-	)
-	(wire
-		(pts
-			(xy 210.82 49.53) (xy 210.82 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7daa4b7b-c9a1-471f-ade7-6770d745ec5a")
-	)
-	(wire
-		(pts
-			(xy 147.32 133.35) (xy 147.32 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f3d68b2-618c-4fcc-ac80-d09723354c63")
 	)
 	(wire
 		(pts
@@ -3573,26 +5141,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 20.32) (xy 172.72 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d90066-f535-40d5-8eda-8e5ae3ac639a")
-	)
-	(wire
-		(pts
-			(xy 162.56 20.32) (xy 165.1 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842efea8-0163-4895-8001-709f65a2cd54")
-	)
-	(wire
-		(pts
 			(xy 82.55 46.99) (xy 82.55 49.53)
 		)
 		(stroke
@@ -3600,26 +5148,6 @@
 			(type default)
 		)
 		(uuid "85592597-6079-4568-87ce-dbfe0241f860")
-	)
-	(wire
-		(pts
-			(xy 149.86 137.16) (xy 152.4 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86461d54-c9bd-4b8b-a95f-83f57974dae8")
-	)
-	(wire
-		(pts
-			(xy 156.21 52.07) (xy 158.75 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8804fccd-1651-4ba7-b8c3-eaff2b40ca94")
 	)
 	(wire
 		(pts
@@ -3643,36 +5171,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 154.94 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fda9199-2789-4eea-aa67-b0de15d22469")
-	)
-	(wire
-		(pts
-			(xy 157.48 20.32) (xy 160.02 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90853dc7-3637-40cd-9a90-3c78410f8e19")
-	)
-	(wire
-		(pts
-			(xy 163.83 52.07) (xy 166.37 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e85697-e51d-4259-a252-5b67f5a06e31")
-	)
-	(wire
-		(pts
 			(xy 77.47 110.49) (xy 82.55 110.49)
 		)
 		(stroke
@@ -3683,23 +5181,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 176.53) (xy 146.05 175.26)
+			(xy 212.09 78.74) (xy 212.09 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96b7fd43-7e99-4e0f-ae3d-dbbb6439505b")
-	)
-	(wire
-		(pts
-			(xy 147.32 130.81) (xy 147.32 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c6cb72-86ec-4c8b-9a4a-ad79ecaff697")
 	)
 	(wire
 		(pts
@@ -3713,27 +5201,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 109.22) (xy 143.51 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a62705e-6099-4acf-bb6e-27e93e522500")
-	)
-	(wire
-		(pts
-			(xy 214.63 26.67) (xy 217.17 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9cb5ac-5d8c-409b-ae0a-f5cecc489d5d")
-	)
-	(wire
-		(pts
-			(xy 147.32 133.35) (xy 152.4 133.35)
+			(xy 212.09 53.34) (xy 217.17 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3743,7 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 44.45) (xy 163.83 44.45)
+			(xy 153.67 53.34) (xy 162.56 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3753,23 +5221,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 109.22) (xy 146.05 109.22)
+			(xy 151.13 60.96) (xy 153.67 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f6fbe30-2499-4d61-955c-29c3fe85c518")
-	)
-	(wire
-		(pts
-			(xy 163.83 41.91) (xy 166.37 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f8da66a-ac16-492d-bc24-96d20169bf14")
+		(uuid "a24da950-3f0e-43c7-afe6-44028ffbb7eb")
 	)
 	(wire
 		(pts
@@ -3783,7 +5241,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 162.56 83.82)
+			(xy 152.4 77.47) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3803,36 +5261,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 62.23) (xy 149.86 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a52cdddd-92e2-4181-afed-eb2827730868")
-	)
-	(wire
-		(pts
-			(xy 210.82 48.26) (xy 208.28 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a582d035-0ddd-4a27-87b0-7ee477b75a13")
-	)
-	(wire
-		(pts
-			(xy 204.47 26.67) (xy 207.01 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a61de20c-d68e-4db3-af4a-bac7ac492c0c")
-	)
-	(wire
-		(pts
 			(xy 34.29 153.67) (xy 36.83 153.67)
 		)
 		(stroke
@@ -3840,36 +5268,6 @@
 			(type default)
 		)
 		(uuid "a7cd75af-6b6c-47d6-8839-013cf514269f")
-	)
-	(wire
-		(pts
-			(xy 210.82 50.8) (xy 210.82 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab25ec0f-a07e-4fed-b867-27dc92d0c5ef")
-	)
-	(wire
-		(pts
-			(xy 207.01 26.67) (xy 209.55 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac38360a-b1a3-485d-abf6-385428d1cc47")
-	)
-	(wire
-		(pts
-			(xy 212.09 62.23) (xy 214.63 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae99e538-85aa-4f8f-8df7-7707e243e1cd")
 	)
 	(wire
 		(pts
@@ -3883,7 +5281,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 50.8) (xy 210.82 50.8)
+			(xy 182.88 53.34) (xy 190.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3893,7 +5291,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 31.75) (xy 33.02 31.75)
+			(xy 39.37 88.9) (xy 41.91 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3923,16 +5321,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 20.32) (xy 167.64 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bab914c9-65a2-4415-8ead-d6352541f6ba")
-	)
-	(wire
-		(pts
 			(xy 196.85 147.32) (xy 196.85 142.24)
 		)
 		(stroke
@@ -3940,16 +5328,6 @@
 			(type default)
 		)
 		(uuid "bd420b6c-de86-44d9-a6af-3226f70eed05")
-	)
-	(wire
-		(pts
-			(xy 162.56 73.66) (xy 162.56 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee46ce3-f651-48ed-bb8a-0c14b1e7fb30")
 	)
 	(wire
 		(pts
@@ -3983,53 +5361,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 50.8) (xy 215.9 49.53)
+			(xy 212.09 68.58) (xy 212.09 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca3a799c-035e-4c83-bbb5-cfcb8f682ebe")
-	)
-	(wire
-		(pts
-			(xy 210.82 21.59) (xy 210.82 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6a49f3-4ede-45c4-8998-07320b0a4017")
-	)
-	(wire
-		(pts
-			(xy 161.29 41.91) (xy 163.83 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd9d21a3-64fd-4eef-b783-974d40e15d68")
-	)
-	(wire
-		(pts
-			(xy 163.83 44.45) (xy 163.83 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3afd7e7-02e9-45c9-85c5-e30e1ae93d65")
-	)
-	(wire
-		(pts
-			(xy 151.13 109.22) (xy 153.67 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d41d46d1-0239-427a-9f49-85fe74bdcffc")
+		(uuid "ce37d150-672d-4604-b505-15a1a46e0265")
 	)
 	(wire
 		(pts
@@ -4053,7 +5391,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 85.09) (xy 210.82 85.09)
+			(xy 181.61 69.85) (xy 190.5 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4063,27 +5401,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 62.23) (xy 210.82 62.23)
+			(xy 180.34 43.18) (xy 181.61 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d77c7c4e-ee91-4d13-932b-973b9c3e1664")
+		(uuid "e0cf02e7-6571-462c-a6c8-afdf8af5b5eb")
 	)
 	(wire
 		(pts
-			(xy 210.82 62.23) (xy 212.09 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de8a2a28-1a48-44f6-a2c5-2c50d235cb12")
-	)
-	(wire
-		(pts
-			(xy 137.16 133.35) (xy 147.32 133.35)
+			(xy 201.93 53.34) (xy 212.09 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4103,43 +5431,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 44.45) (xy 167.64 44.45)
+			(xy 180.34 60.96) (xy 181.61 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e742ddb1-b5dd-455c-bdca-3fa5e12774f2")
+		(uuid "e897255d-fc4d-4148-9db0-dafee7f72fe3")
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 162.56 83.82)
+			(xy 162.56 78.74) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ecf2e0d9-90a5-409b-b2cb-14e048664d13")
-	)
-	(wire
-		(pts
-			(xy 147.32 137.16) (xy 149.86 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee3efcbd-d06e-4e3d-a44b-c9864502caa8")
-	)
-	(wire
-		(pts
-			(xy 146.05 158.75) (xy 143.51 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee879a34-61a4-47ff-a5ca-6f836a40bfa2")
 	)
 	(wire
 		(pts
@@ -4153,26 +5461,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 50.8) (xy 215.9 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef47877b-0f63-4763-ac30-b070ceeff07f")
-	)
-	(wire
-		(pts
-			(xy 210.82 83.82) (xy 213.36 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f155840e-6efd-4619-97e2-e634660b0669")
-	)
-	(wire
-		(pts
 			(xy 123.19 46.99) (xy 123.19 49.53)
 		)
 		(stroke
@@ -4180,16 +5468,6 @@
 			(type default)
 		)
 		(uuid "f306f84b-10b0-45f7-8914-07746897823a")
-	)
-	(wire
-		(pts
-			(xy 165.1 20.32) (xy 166.37 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40cb608-9836-4e87-9287-571621e0900a")
 	)
 	(wire
 		(pts
@@ -4213,23 +5491,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 29.21) (xy 17.78 31.75)
+			(xy 26.67 86.36) (xy 26.67 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f97bff3a-338c-48b2-82db-45de14c33b8f")
-	)
-	(wire
-		(pts
-			(xy 144.78 137.16) (xy 147.32 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdd7a52f-fe6d-4d74-9d0d-41c912da6df9")
 	)
 	(label "SHC"
 		(at 113.03 90.17 0)
@@ -4252,7 +5520,7 @@
 		(uuid "04b1690d-3ffd-458a-b62c-58ba9d698474")
 	)
 	(label "GHC"
-		(at 198.12 36.83 180)
+		(at 180.34 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4272,7 +5540,7 @@
 		(uuid "0b826d4b-2bd9-4cc7-84a4-debdfff36a0f")
 	)
 	(label "GHA"
-		(at 146.05 30.48 0)
+		(at 151.13 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4322,12 +5590,12 @@
 		(uuid "31a05ad8-155a-43ad-ad8e-88a5660be472")
 	)
 	(label "GLB"
-		(at 128.27 147.32 0)
+		(at 201.93 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "320c3094-a7cc-42e4-abdd-8ae0890ab6cd")
 	)
@@ -4352,7 +5620,7 @@
 		(uuid "491ccf32-c190-4c4c-97a5-3d9f33c71e23")
 	)
 	(label "SHB"
-		(at 137.16 133.35 0)
+		(at 201.93 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4382,7 +5650,7 @@
 		(uuid "5314edeb-8d5a-452f-91f1-306caf20bfc9")
 	)
 	(label "GLA"
-		(at 144.78 62.23 0)
+		(at 151.13 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4412,7 +5680,7 @@
 		(uuid "741bb37d-1263-4553-83ce-beb6bcb7138f")
 	)
 	(label "SHC"
-		(at 201.93 50.8 0)
+		(at 182.88 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4422,7 +5690,7 @@
 		(uuid "774fc6d1-05a0-41fa-bb35-36121de6d032")
 	)
 	(label "SHA"
-		(at 153.67 44.45 0)
+		(at 153.67 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4432,7 +5700,7 @@
 		(uuid "7763fa01-c457-4bb3-8ec6-ec434de02ed5")
 	)
 	(label "SPA"
-		(at 152.4 74.93 0)
+		(at 152.4 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4442,7 +5710,7 @@
 		(uuid "7a4aa1ed-ef55-4cb9-bff1-65a81a9f7c1b")
 	)
 	(label "VM"
-		(at 33.02 31.75 0)
+		(at 41.91 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4452,7 +5720,7 @@
 		(uuid "81bcd8bf-02ce-4ef5-96f3-26bac77cb15d")
 	)
 	(label "SNC"
-		(at 203.2 92.71 0)
+		(at 182.88 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4472,7 +5740,7 @@
 		(uuid "88b2fb81-c0d4-4bc0-b0e5-f2a50c39d7ea")
 	)
 	(label "SNA"
-		(at 152.4 83.82 0)
+		(at 152.4 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4522,7 +5790,7 @@
 		(uuid "ad1f8f9a-5930-4522-b691-fbf05a35c431")
 	)
 	(label "GHB"
-		(at 134.62 119.38 180)
+		(at 203.2 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4552,7 +5820,7 @@
 		(uuid "c65fcb65-8c2b-484d-b972-3a5fca13d582")
 	)
 	(label "SPC"
-		(at 201.93 85.09 0)
+		(at 181.61 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4592,7 +5860,7 @@
 		(uuid "daf3fdb2-6c5c-45b7-822a-33e03f474373")
 	)
 	(label "SPB"
-		(at 135.89 167.64 0)
+		(at 201.93 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4622,17 +5890,17 @@
 		(uuid "e7ab2bb2-a9c3-4e21-adbe-e8bdb0b56cdc")
 	)
 	(label "GLC"
-		(at 194.31 72.39 0)
+		(at 180.34 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e7d884a5-6a08-46c2-b62a-7d5f702f4e21")
 	)
 	(label "SNB"
-		(at 135.89 176.53 0)
+		(at 201.93 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4739,7 +6007,7 @@
 	)
 	(hierarchical_label "MA"
 		(shape input)
-		(at 167.64 44.45 0)
+		(at 167.64 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4761,7 +6029,7 @@
 	)
 	(hierarchical_label "MC"
 		(shape input)
-		(at 220.98 50.8 0)
+		(at 193.04 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4783,7 +6051,7 @@
 	)
 	(hierarchical_label "MB"
 		(shape input)
-		(at 152.4 133.35 0)
+		(at 217.17 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5477,7 +6745,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 210.82 21.59 0)
+		(at 190.5 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5486,7 +6754,7 @@
 		(fields_autoplaced yes)
 		(uuid "199fe90a-532d-4408-9671-887d21070f3b")
 		(property "Reference" "#PWR014"
-			(at 210.82 25.4 0)
+			(at 190.5 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +6763,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 210.82 16.51 0)
+			(at 190.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +6771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 21.59 0)
+			(at 190.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +6780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 21.59 0)
+			(at 190.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +6789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 210.82 21.59 0)
+			(at 190.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +7156,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 17.78 35.56 180)
+		(at 26.67 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5897,7 +7165,7 @@
 		(fields_autoplaced yes)
 		(uuid "3294ec6d-c2b7-464c-982c-60d22d6b1b3e")
 		(property "Reference" "C31"
-			(at 21.59 34.2899 0)
+			(at 30.48 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +7174,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 21.59 36.8299 0)
+			(at 30.48 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +7183,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 16.8148 31.75 0)
+			(at 25.7048 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +7192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 35.56 0)
+			(at 26.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +7201,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 17.78 35.56 0)
+			(at 26.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +7210,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 17.78 35.56 0)
+			(at 26.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +7219,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 17.78 35.56 0)
+			(at 26.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +7228,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 17.78 35.56 0)
+			(at 26.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +7237,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 17.78 35.56 0)
+			(at 26.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +7246,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 17.78 35.56 0)
+			(at 26.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +7255,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 17.78 35.56 0)
+			(at 26.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,8 +7293,9 @@
 		)
 	)
 	(symbol
+		(lib_name "AON7262E_3")
 		(lib_id "AON7262E:AON7262E")
-		(at 198.12 29.21 0)
+		(at 190.5 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6035,23 +7304,25 @@
 		(fields_autoplaced yes)
 		(uuid "3a3befc2-b06a-42f8-a6ea-5427f03e8d78")
 		(property "Reference" "Q5"
-			(at 210.82 21.59 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "AON7262E"
-			(at 210.82 24.13 0)
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "AON7262E"
-			(at 219.71 124.13 0)
+			(at 212.09 138.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +7332,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
-			(at 219.71 224.13 0)
+			(at 212.09 238.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +7342,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-			(at 191.77 43.18 0)
+			(at 184.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +7351,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 219.71 424.13 0)
+			(at 212.09 438.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +7361,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 219.71 524.13 0)
+			(at 212.09 538.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +7371,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 219.71 624.13 0)
+			(at 212.09 638.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +7381,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 219.71 724.13 0)
+			(at 212.09 738.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,7 +7391,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AON7262E"
-			(at 219.71 824.13 0)
+			(at 212.09 838.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +7401,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 198.12 29.21 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +7410,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 198.12 29.21 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +7419,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 198.12 29.21 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +7428,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 198.12 29.21 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +7437,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 198.12 29.21 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +7446,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 198.12 29.21 0)
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,38 +7454,14 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "2febbe57-efe2-4417-8cc9-259d3df5cea3")
-		)
 		(pin "11"
 			(uuid "161deb14-dcca-4be3-b82c-1f3b8cac5be7")
-		)
-		(pin "8"
-			(uuid "fb929cca-5f45-4434-bcc1-7cc867cfe139")
-		)
-		(pin "10"
-			(uuid "2440b94a-74c4-4f1f-9349-46ade1417fe9")
 		)
 		(pin "4"
 			(uuid "04e23d7e-9c78-4bac-8ea7-3cd25e4f240a")
 		)
-		(pin "7"
-			(uuid "93d37d1e-a652-41a5-aed4-6eb6c22c5df7")
-		)
-		(pin "6"
-			(uuid "fe3b03f9-48b2-4e1e-809d-58f4fc618d54")
-		)
 		(pin "3"
 			(uuid "1c4881f1-7d5c-4a96-84c0-063df69ab192")
-		)
-		(pin "5"
-			(uuid "1dec6948-e09c-4005-8b16-1d4890e410d5")
-		)
-		(pin "2"
-			(uuid "dffac41e-57bd-450e-8a56-a2fefff37375")
-		)
-		(pin "1"
-			(uuid "9309eb61-d411-41a8-83a7-2d415b96c7ed")
 		)
 		(instances
 			(project "Wheelbase"
@@ -6241,7 +7488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 176.53 0)
+		(at 212.09 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6250,7 +7497,7 @@
 		(fields_autoplaced yes)
 		(uuid "3afd6d15-b263-4290-8340-586af4ec17c2")
 		(property "Reference" "#PWR069"
-			(at 146.05 182.88 0)
+			(at 212.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +7506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 181.61 0)
+			(at 212.09 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +7514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 176.53 0)
+			(at 212.09 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,7 +7523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 176.53 0)
+			(at 212.09 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +7532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 176.53 0)
+			(at 212.09 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +7568,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 88.9 180)
+		(at 190.5 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6329,7 +7576,7 @@
 		(dnp no)
 		(uuid "3de91314-b59d-40cb-bedf-4c2622a4a746")
 		(property "Reference" "R12"
-			(at 207.264 88.646 90)
+			(at 186.944 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +7584,7 @@
 			)
 		)
 		(property "Value" "10mΩ"
-			(at 208.788 88.138 90)
+			(at 188.468 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +7592,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 212.598 88.9 90)
+			(at 192.278 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +7601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 88.9 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +7610,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 88.9 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +7619,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 210.82 88.9 90)
+			(at 190.5 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +7628,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 210.82 88.9 90)
+			(at 190.5 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +7637,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 210.82 88.9 90)
+			(at 190.5 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +7646,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 210.82 88.9 90)
+			(at 190.5 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6408,7 +7655,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 210.82 88.9 90)
+			(at 190.5 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +7664,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 210.82 88.9 90)
+			(at 190.5 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +7921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 93.98 0)
+		(at 190.5 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6683,7 +7930,7 @@
 		(fields_autoplaced yes)
 		(uuid "4adcfc98-79d7-424d-98ca-9de1ecf14f9a")
 		(property "Reference" "#PWR063"
-			(at 210.82 100.33 0)
+			(at 190.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,7 +7939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 99.06 0)
+			(at 190.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +7947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 93.98 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +7956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 93.98 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +7965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 93.98 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,8 +8000,9 @@
 		)
 	)
 	(symbol
+		(lib_name "AON7262E_4")
 		(lib_id "AON7262E:AON7262E")
-		(at 198.12 64.77 0)
+		(at 189.23 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6763,23 +8011,25 @@
 		(fields_autoplaced yes)
 		(uuid "5170ee6c-1c20-4d9c-bc59-fc461d453bcd")
 		(property "Reference" "Q6"
-			(at 210.82 57.15 0)
+			(at 201.93 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "AON7262E"
-			(at 210.82 59.69 0)
+			(at 201.93 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "AON7262E"
-			(at 219.71 159.69 0)
+			(at 210.82 155.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +8039,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
-			(at 219.71 259.69 0)
+			(at 210.82 255.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +8049,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-			(at 191.77 78.74 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6808,7 +8058,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 219.71 459.69 0)
+			(at 210.82 455.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,7 +8068,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 219.71 559.69 0)
+			(at 210.82 555.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +8078,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 219.71 659.69 0)
+			(at 210.82 655.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +8088,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 219.71 759.69 0)
+			(at 210.82 755.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +8098,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AON7262E"
-			(at 219.71 859.69 0)
+			(at 210.82 855.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +8108,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 198.12 64.77 0)
+			(at 189.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +8117,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 198.12 64.77 0)
+			(at 189.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +8126,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 198.12 64.77 0)
+			(at 189.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +8135,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 198.12 64.77 0)
+			(at 189.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +8144,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 198.12 64.77 0)
+			(at 189.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +8153,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 198.12 64.77 0)
+			(at 189.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,38 +8161,14 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "c06d8e11-f7f6-49c3-9567-56151e33b097")
-		)
 		(pin "11"
 			(uuid "fc101ebe-4c23-458e-8097-350d3e35f811")
-		)
-		(pin "8"
-			(uuid "60f4dad3-01d6-43b1-bd44-122e6f660177")
-		)
-		(pin "10"
-			(uuid "0d577ae7-e783-4c31-866b-c4b9ae701010")
 		)
 		(pin "4"
 			(uuid "feb10295-4bd4-4f0f-b3b3-e39c24e9571e")
 		)
-		(pin "7"
-			(uuid "69e0ce8a-97b8-45c4-9e07-9559cfc7025e")
-		)
-		(pin "6"
-			(uuid "8d5924d1-be7f-4874-b983-fb55c95288e5")
-		)
 		(pin "3"
 			(uuid "7460fd19-5c66-4e56-92d6-9b44aa818e8b")
-		)
-		(pin "5"
-			(uuid "73b62e7c-d978-4f6d-a041-dbc00a901b2e")
-		)
-		(pin "2"
-			(uuid "461e1041-67af-44d8-a023-4f5d05827f7e")
-		)
-		(pin "1"
-			(uuid "856afa99-0d98-47ec-80fc-0f28b729742e")
 		)
 		(instances
 			(project "Wheelbase"
@@ -7042,17 +8268,17 @@
 		)
 	)
 	(symbol
+		(lib_name "AON7262E_1")
 		(lib_id "AON7262E:AON7262E")
-		(at 149.86 54.61 0)
+		(at 162.56 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "568ce5be-f71c-4cf1-8f98-68bbe3a3b997")
 		(property "Reference" "Q2"
-			(at 162.56 46.99 0)
+			(at 167.64 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +8286,7 @@
 			)
 		)
 		(property "Value" "AON7262E"
-			(at 162.56 49.53 0)
+			(at 169.418 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +8294,7 @@
 			)
 		)
 		(property "Footprint" "AON7262E"
-			(at 171.45 149.53 0)
+			(at 184.15 155.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +8304,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
-			(at 171.45 249.53 0)
+			(at 184.15 255.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7088,7 +8314,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-			(at 143.51 68.58 0)
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7097,7 +8323,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 171.45 449.53 0)
+			(at 184.15 455.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,7 +8333,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 171.45 549.53 0)
+			(at 184.15 555.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +8343,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 171.45 649.53 0)
+			(at 184.15 655.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +8353,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 171.45 749.53 0)
+			(at 184.15 755.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,7 +8363,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AON7262E"
-			(at 171.45 849.53 0)
+			(at 184.15 855.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +8373,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 149.86 54.61 0)
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +8382,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 149.86 54.61 0)
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,7 +8391,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 149.86 54.61 0)
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +8400,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 149.86 54.61 0)
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +8409,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 149.86 54.61 0)
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +8418,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 149.86 54.61 0)
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,32 +8564,33 @@
 	)
 	(symbol
 		(lib_id "AON7262E:AON7262E")
-		(at 133.35 139.7 0)
+		(at 210.82 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ee525b3-db9e-44ac-b060-885834914d71")
 		(property "Reference" "Q19"
-			(at 146.05 132.08 0)
+			(at 222.504 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "AON7262E"
-			(at 146.05 134.62 0)
+			(at 223.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "AON7262E"
-			(at 154.94 234.62 0)
+			(at 232.41 155.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +8600,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
-			(at 154.94 334.62 0)
+			(at 232.41 255.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +8610,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-			(at 127 153.67 0)
+			(at 204.47 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +8619,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 154.94 534.62 0)
+			(at 232.41 455.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,7 +8629,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 154.94 634.62 0)
+			(at 232.41 555.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +8639,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 154.94 734.62 0)
+			(at 232.41 655.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,7 +8649,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 154.94 834.62 0)
+			(at 232.41 755.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +8659,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AON7262E"
-			(at 154.94 934.62 0)
+			(at 232.41 855.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,7 +8669,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 133.35 139.7 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +8678,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 133.35 139.7 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +8687,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 133.35 139.7 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,7 +8696,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 133.35 139.7 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,7 +8705,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 133.35 139.7 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +8714,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 133.35 139.7 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,38 +8722,14 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "83ba6f97-491f-4958-98b6-59b3a719cfa5")
-		)
 		(pin "11"
 			(uuid "1d08d49d-5836-4c7d-bca4-1dfdf53615e2")
-		)
-		(pin "8"
-			(uuid "3e1eb45e-430c-4c92-ac06-4ca299269999")
-		)
-		(pin "10"
-			(uuid "997838c4-762f-41d3-9f00-eb4c3e9849fb")
 		)
 		(pin "4"
 			(uuid "1411046c-0683-420a-ae25-e213fb3b4242")
 		)
-		(pin "7"
-			(uuid "f8788f1e-e391-437c-a8a2-6d309aa78e2d")
-		)
-		(pin "6"
-			(uuid "8b32c7a1-e91f-458b-a6c7-58633d814235")
-		)
 		(pin "3"
 			(uuid "0fc1a197-69cd-4966-80bd-cc0b7a1221b4")
-		)
-		(pin "5"
-			(uuid "7057574b-9377-4caa-9cc0-f34608912682")
-		)
-		(pin "2"
-			(uuid "391fc6fb-b993-420d-8411-b228bc6789ff")
-		)
-		(pin "1"
-			(uuid "1333c482-a814-4a71-a60c-172f106418bd")
 		)
 		(instances
 			(project ""
@@ -7553,7 +8756,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 151.13 100.33 0)
+		(at 212.09 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7562,7 +8765,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ef81087-7eb3-48d4-9dc7-c4973a862f6e")
 		(property "Reference" "#PWR013"
-			(at 151.13 104.14 0)
+			(at 212.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7571,7 +8774,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 151.13 95.25 0)
+			(at 212.09 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +8782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 100.33 0)
+			(at 212.09 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +8791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 100.33 0)
+			(at 212.09 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +8800,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 151.13 100.33 0)
+			(at 212.09 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +9103,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 17.78 39.37 0)
+		(at 26.67 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7909,7 +9112,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a87945a-c387-40af-9e92-f3d7b2b7ba06")
 		(property "Reference" "#PWR0102"
-			(at 17.78 45.72 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +9121,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 44.45 0)
+			(at 26.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +9129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 39.37 0)
+			(at 26.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +9138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 39.37 0)
+			(at 26.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +9147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 39.37 0)
+			(at 26.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +9454,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 30.48 35.56 0)
+		(at 39.37 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8260,7 +9463,7 @@
 		(fields_autoplaced yes)
 		(uuid "84060bb7-99f7-4e97-9eb3-470e84d9b034")
 		(property "Reference" "C5"
-			(at 34.29 34.2899 0)
+			(at 43.18 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +9472,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 34.29 36.8299 0)
+			(at 43.18 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +9481,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 31.4452 39.37 0)
+			(at 40.3352 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +9490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 35.56 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +9499,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 30.48 35.56 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +9508,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 30.48 35.56 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +9517,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 30.48 35.56 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +9526,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 30.48 35.56 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +9535,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 30.48 35.56 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +9544,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 30.48 35.56 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +9553,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 30.48 35.56 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +9801,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 80.01 180)
+		(at 162.56 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8606,7 +9809,7 @@
 		(dnp no)
 		(uuid "8a99200a-a1ee-48a8-b32c-ef13142110d2")
 		(property "Reference" "R9"
-			(at 159.004 79.756 90)
+			(at 159.004 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +9817,7 @@
 			)
 		)
 		(property "Value" "10mΩ"
-			(at 160.528 79.248 90)
+			(at 160.528 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +9825,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 164.338 80.01 90)
+			(at 164.338 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +9834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 80.01 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +9843,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 80.01 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +9852,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 162.56 80.01 90)
+			(at 162.56 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +9861,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 162.56 80.01 90)
+			(at 162.56 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +9870,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 162.56 80.01 90)
+			(at 162.56 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +9879,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 162.56 80.01 90)
+			(at 162.56 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +9888,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 162.56 80.01 90)
+			(at 162.56 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,7 +9897,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 162.56 80.01 90)
+			(at 162.56 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +10712,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 171.45 180)
+		(at 212.09 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9517,7 +10720,7 @@
 		(dnp no)
 		(uuid "a49c0279-2f2e-4836-a49e-e70aff1c2fdf")
 		(property "Reference" "R15"
-			(at 142.494 171.196 90)
+			(at 208.534 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,7 +10728,7 @@
 			)
 		)
 		(property "Value" "10mΩ"
-			(at 144.018 170.688 90)
+			(at 210.058 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +10736,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 147.828 171.45 90)
+			(at 213.868 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,7 +10745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 171.45 0)
+			(at 212.09 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9551,7 +10754,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 171.45 0)
+			(at 212.09 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +10763,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 146.05 171.45 90)
+			(at 212.09 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +10772,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 146.05 171.45 90)
+			(at 212.09 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,7 +10781,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 146.05 171.45 90)
+			(at 212.09 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,7 +10790,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 146.05 171.45 90)
+			(at 212.09 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9596,7 +10799,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 146.05 171.45 90)
+			(at 212.09 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9605,7 +10808,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 146.05 171.45 90)
+			(at 212.09 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9644,7 +10847,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 39.37 0)
+		(at 39.37 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9653,7 +10856,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab2f62d7-21a0-464f-aa91-70330761963c")
 		(property "Reference" "#PWR018"
-			(at 30.48 45.72 0)
+			(at 39.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,7 +10865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 44.45 0)
+			(at 39.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +10873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 39.37 0)
+			(at 39.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +10882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 39.37 0)
+			(at 39.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,7 +10891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 39.37 0)
+			(at 39.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9859,7 +11062,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 17.78 29.21 0)
+		(at 26.67 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9867,7 +11070,7 @@
 		(dnp no)
 		(uuid "bf8339ec-0c61-42ce-8a1c-6b10665c9db5")
 		(property "Reference" "#PWR0101"
-			(at 17.78 33.02 0)
+			(at 26.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +11079,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 16.51 25.4 0)
+			(at 25.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9885,7 +11088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 29.21 0)
+			(at 26.67 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +11097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 29.21 0)
+			(at 26.67 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +11106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 17.78 29.21 0)
+			(at 26.67 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +11222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 85.09 0)
+		(at 162.56 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10028,7 +11231,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce869775-3dca-4bf2-bdb0-ad8fd62708aa")
 		(property "Reference" "#PWR066"
-			(at 162.56 91.44 0)
+			(at 162.56 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +11240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 90.17 0)
+			(at 162.56 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +11248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 85.09 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +11257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 85.09 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +11266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 85.09 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,8 +11301,9 @@
 		)
 	)
 	(symbol
+		(lib_name "AON7262E_2")
 		(lib_id "AON7262E:AON7262E")
-		(at 151.13 22.86 0)
+		(at 162.56 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10108,23 +11312,25 @@
 		(fields_autoplaced yes)
 		(uuid "d57f58f3-c796-41f8-a07d-1b832a473d82")
 		(property "Reference" "Q1"
-			(at 163.83 15.24 0)
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "AON7262E"
-			(at 163.83 17.78 0)
+			(at 175.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "AON7262E"
-			(at 172.72 117.78 0)
+			(at 184.15 140.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,7 +11340,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
-			(at 172.72 217.78 0)
+			(at 184.15 240.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,7 +11350,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-			(at 144.78 36.83 0)
+			(at 156.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +11359,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 172.72 417.78 0)
+			(at 184.15 440.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +11369,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 172.72 517.78 0)
+			(at 184.15 540.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +11379,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 172.72 617.78 0)
+			(at 184.15 640.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,7 +11389,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 172.72 717.78 0)
+			(at 184.15 740.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +11399,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AON7262E"
-			(at 172.72 817.78 0)
+			(at 184.15 840.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10203,7 +11409,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 151.13 22.86 0)
+			(at 162.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,7 +11418,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 151.13 22.86 0)
+			(at 162.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,7 +11427,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 151.13 22.86 0)
+			(at 162.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,7 +11436,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 151.13 22.86 0)
+			(at 162.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +11445,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 151.13 22.86 0)
+			(at 162.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10248,7 +11454,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 151.13 22.86 0)
+			(at 162.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,38 +11462,14 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "1ffca655-e417-48fa-ac49-db79902cc872")
-		)
 		(pin "11"
 			(uuid "a053612d-83e6-4dbb-8263-a86902240a54")
-		)
-		(pin "8"
-			(uuid "e33ff5d2-2733-416b-8220-27469b3a3bcc")
-		)
-		(pin "10"
-			(uuid "3c248227-fdf7-4c0c-8dc6-7168a673eea6")
 		)
 		(pin "4"
 			(uuid "50af60e7-7e10-4d47-88b7-2dbe501bf719")
 		)
-		(pin "7"
-			(uuid "54fb3e00-231b-44b2-9e6a-cda8b012c253")
-		)
-		(pin "6"
-			(uuid "88e44a19-f5bc-4745-802e-686347e92e9d")
-		)
 		(pin "3"
 			(uuid "cf474799-374d-412e-8603-1ad4a6b9eeed")
-		)
-		(pin "5"
-			(uuid "1f09c21d-36be-4e4a-adca-610faa8836f4")
-		)
-		(pin "2"
-			(uuid "dd1dd5b7-1406-42b3-9211-fdc237f89fe5")
-		)
-		(pin "1"
-			(uuid "bfab61b0-c6af-47b9-b546-c73ca6ca9134")
 		)
 		(instances
 			(project "Wheelbase"
@@ -10387,8 +11569,9 @@
 		)
 	)
 	(symbol
+		(lib_name "AON7262E_5")
 		(lib_id "AON7262E:AON7262E")
-		(at 134.62 111.76 0)
+		(at 210.82 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10397,23 +11580,25 @@
 		(fields_autoplaced yes)
 		(uuid "dfea03a4-37a9-4339-acba-adabd8c71b3b")
 		(property "Reference" "Q3"
-			(at 147.32 104.14 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "AON7262E"
-			(at 147.32 106.68 0)
+			(at 223.52 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "AON7262E"
-			(at 156.21 206.68 0)
+			(at 232.41 140.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,7 +11608,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
-			(at 156.21 306.68 0)
+			(at 232.41 240.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10433,7 +11618,7 @@
 			)
 		)
 		(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-			(at 128.27 125.73 0)
+			(at 204.47 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10442,7 +11627,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 156.21 506.68 0)
+			(at 232.41 440.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +11637,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 156.21 606.68 0)
+			(at 232.41 540.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10462,7 +11647,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 156.21 706.68 0)
+			(at 232.41 640.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,7 +11657,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 156.21 806.68 0)
+			(at 232.41 740.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10482,7 +11667,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AON7262E"
-			(at 156.21 906.68 0)
+			(at 232.41 840.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10492,7 +11677,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 134.62 111.76 0)
+			(at 210.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,7 +11686,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 134.62 111.76 0)
+			(at 210.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10510,7 +11695,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 134.62 111.76 0)
+			(at 210.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10519,7 +11704,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 134.62 111.76 0)
+			(at 210.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10528,7 +11713,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 134.62 111.76 0)
+			(at 210.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10537,7 +11722,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 134.62 111.76 0)
+			(at 210.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,38 +11730,14 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "749216da-d081-44db-9f3e-adbbc5127a2c")
-		)
 		(pin "11"
 			(uuid "50debf36-33fb-48c0-b541-9a1a050389b1")
-		)
-		(pin "8"
-			(uuid "2df82957-88fd-4f7e-aadf-e4296bd503ed")
-		)
-		(pin "10"
-			(uuid "47a8e29f-4ea3-49dc-b5e8-646093c9d250")
 		)
 		(pin "4"
 			(uuid "d94212c1-4d06-4ce0-a8e4-2e3195a25593")
 		)
-		(pin "7"
-			(uuid "8019e888-414b-41cb-99a7-5345c6ee3c6b")
-		)
-		(pin "6"
-			(uuid "d96b0cfe-0d95-4e8f-8def-6cc91468dc25")
-		)
 		(pin "3"
 			(uuid "6cb8a25a-75d5-4a6d-bffa-3856886f13c0")
-		)
-		(pin "5"
-			(uuid "7785063f-7b6f-4c48-9213-7282d6e620f0")
-		)
-		(pin "2"
-			(uuid "e6491e83-a1f2-4a5a-b85b-a34a8156c6c7")
-		)
-		(pin "1"
-			(uuid "809e3baa-8130-4502-9d52-d95ab438b287")
 		)
 		(instances
 			(project "Wheelbase"
@@ -10741,7 +11902,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 166.37 17.78 0)
+		(at 162.56 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10750,7 +11911,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6a4dbea-e45e-4231-9dcd-f042ad4feb7f")
 		(property "Reference" "#PWR0103"
-			(at 166.37 21.59 0)
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +11920,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 166.37 12.7 0)
+			(at 162.56 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +11928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 17.78 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +11937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 17.78 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,7 +11946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 166.37 17.78 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
