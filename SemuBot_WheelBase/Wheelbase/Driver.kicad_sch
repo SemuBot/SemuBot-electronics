@@ -5012,22 +5012,28 @@
 		(uuid "1e0a37d3-088d-498a-8f9c-d0c0fbd08400")
 	)
 	(junction
-		(at 212.09 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28b580eb-e72d-4cc9-b5d3-91dd79ce6134")
-	)
-	(junction
 		(at 190.5 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "332a4c2e-62cb-4d7c-9e98-c15b6f1d09c3")
 	)
 	(junction
+		(at 212.09 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56592065-3d4b-4920-bb20-a7b60720e306")
+	)
+	(junction
 		(at 212.09 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59904c73-1814-4c36-8825-659fdadcf6d8")
+	)
+	(junction
+		(at 162.56 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cecc865-39f8-4fbb-ba1a-52c1f078bf82")
 	)
 	(junction
 		(at 113.03 123.19)
@@ -5090,7 +5096,7 @@
 		(uuid "dd5ac889-0588-41e2-b7d4-574d38d939e6")
 	)
 	(junction
-		(at 162.56 77.47)
+		(at 162.56 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7fae220-1ed3-40a7-9555-b330d102fb57")
@@ -5100,6 +5106,28 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea68923e-dc74-4fc4-b7f6-d581a8b56baf")
+	)
+	(junction
+		(at 190.5 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f239da3b-febb-46bc-bbb7-25a89bf583ea")
+	)
+	(junction
+		(at 162.56 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3a339b7-fe00-401f-87e7-3af4ff549279")
+	)
+	(junction
+		(at 212.09 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f55a6648-5268-4359-b7a9-b9a150e230f2")
+	)
+	(no_connect
+		(at 113.03 60.96)
+		(uuid "ea9795ac-b916-402b-abe3-5384eddd768a")
 	)
 	(wire
 		(pts
@@ -5163,7 +5191,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 36.83) (xy 162.56 38.1)
+			(xy 162.56 33.02) (xy 162.56 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5190,6 +5218,16 @@
 			(type default)
 		)
 		(uuid "363da044-1527-4987-9574-258ef0524fd9")
+	)
+	(wire
+		(pts
+			(xy 212.09 33.02) (xy 212.09 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cec5e7d-39a1-4c1d-90b3-34859761441c")
 	)
 	(wire
 		(pts
@@ -5243,6 +5281,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 36.83) (xy 162.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5393ef31-445b-49f9-a92b-a5ac57289e31")
+	)
+	(wire
+		(pts
 			(xy 190.5 78.74) (xy 190.5 77.47)
 		)
 		(stroke
@@ -5253,13 +5301,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 68.58) (xy 162.56 68.58)
+			(xy 152.4 71.12) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a75757a-df8c-4943-ab07-173667d6d565")
+	)
+	(wire
+		(pts
+			(xy 212.09 35.56) (xy 212.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cea316d-8ee6-47eb-8582-135c47f610c8")
 	)
 	(wire
 		(pts
@@ -5313,23 +5371,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 68.58) (xy 162.56 69.85)
+			(xy 162.56 71.12) (xy 162.56 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70277eec-dbd0-4006-b413-942d672e3465")
-	)
-	(wire
-		(pts
-			(xy 133.35 58.42) (xy 133.35 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70740073-7a97-4254-9fa8-f1107407ad37")
 	)
 	(wire
 		(pts
@@ -5350,6 +5398,16 @@
 			(type default)
 		)
 		(uuid "85592597-6079-4568-87ce-dbfe0241f860")
+	)
+	(wire
+		(pts
+			(xy 162.56 55.88) (xy 162.56 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e1b6fe-33d3-480c-9261-1ef2e7e4962e")
 	)
 	(wire
 		(pts
@@ -5403,7 +5461,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 60.96) (xy 153.67 60.96)
+			(xy 190.5 33.02) (xy 190.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19d6fe9-752f-4595-b143-bab5d13ce0cc")
+	)
+	(wire
+		(pts
+			(xy 151.13 63.5) (xy 153.67 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5413,7 +5481,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 77.47) (xy 162.56 77.47)
+			(xy 152.4 80.01) (xy 162.56 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5480,16 +5548,6 @@
 			(type default)
 		)
 		(uuid "b76befff-b541-4802-a6f2-4d344522a121")
-	)
-	(wire
-		(pts
-			(xy 113.03 60.96) (xy 133.35 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2649810-f4a0-4581-81b1-3d65fe1d59d2")
 	)
 	(wire
 		(pts
@@ -5563,7 +5621,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 162.56 77.47)
+			(xy 162.56 81.28) (xy 162.56 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5742,7 +5800,7 @@
 		(uuid "5314edeb-8d5a-452f-91f1-306caf20bfc9")
 	)
 	(label "GLA"
-		(at 151.13 60.96 0)
+		(at 151.13 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5792,7 +5850,7 @@
 		(uuid "7763fa01-c457-4bb3-8ec6-ec434de02ed5")
 	)
 	(label "SPA"
-		(at 152.4 68.58 0)
+		(at 152.4 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5832,7 +5890,7 @@
 		(uuid "88b2fb81-c0d4-4bc0-b0e5-f2a50c39d7ea")
 	)
 	(label "SNA"
-		(at 152.4 77.47 0)
+		(at 152.4 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6179,94 +6237,8 @@
 		(uuid "ec4c0a1d-09f1-4a2a-806e-c70b08eda7e7")
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 133.35 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0020d4a0-5a74-42f2-bd72-9403ee1b6f1b")
-		(property "Reference" "#PWR023"
-			(at 133.35 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 133.35 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f88ce5a8-d512-49cd-8580-9975849099b9")
-		)
-		(instances
-			(project "Wheelbase"
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
-					(reference "#PWR051")
-					(unit 1)
-				)
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
-					(reference "#PWR023")
-					(unit 1)
-				)
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 190.5 86.36 0)
+		(at 190.5 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6277,7 +6249,7 @@
 		(fields_autoplaced yes)
 		(uuid "0493d775-b728-450c-a899-958a11e439ad")
 		(property "Reference" "#PWR063"
-			(at 190.5 92.71 0)
+			(at 190.5 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6288,7 +6260,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 91.44 0)
+			(at 190.5 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6298,7 +6270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 86.36 0)
+			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,7 +6281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 86.36 0)
+			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6320,7 +6292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 86.36 0)
+			(at 190.5 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6502,8 +6474,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 190.5 35.56 0)
+		(lib_id "Device:C")
+		(at 166.37 36.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6511,31 +6483,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "199fe90a-532d-4408-9671-887d21070f3b")
-		(property "Reference" "#PWR014"
-			(at 190.5 39.37 0)
-			(hide yes)
+		(uuid "0d63a29e-1233-4c14-bb6e-4723fe0ce7f0")
+		(property "Reference" "C35"
+			(at 164.592 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+24V"
-			(at 190.5 30.48 0)
+		(property "Value" "1uF 50V X7R"
+			(at 167.132 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 190.5 35.56 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 170.18 35.8648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6546,7 +6518,151 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 35.56 0)
+			(at 166.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FCC0805B105K500FT"
+			(at 166.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 166.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 166.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 166.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 166.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 166.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e0ac3ac-44b5-4d5f-b638-dd1fceb001ec")
+		)
+		(pin "2"
+			(uuid "a6c1cc6d-a762-49e7-a244-5ccde6a7983f")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 190.5 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "199fe90a-532d-4408-9671-887d21070f3b")
+		(property "Reference" "#PWR014"
+			(at 190.5 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 190.5 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6557,7 +6673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 190.5 35.56 0)
+			(at 190.5 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6959,6 +7075,92 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "206a30ce-d338-48c7-8929-a6d1cfa636f2")
+		(property "Reference" "#PWR0105"
+			(at 219.71 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00833c07-c51b-4df5-a8bf-204999a5f292")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 26.67 92.71 180)
 		(unit 1)
@@ -7104,6 +7306,92 @@
 			(project "Driver"
 				(path "/cd328f1a-658d-4084-a2e0-41baf4e02fa8"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36972bad-2023-4e0a-b109-bdf8bb0d2f61")
+		(property "Reference" "#PWR092"
+			(at 198.12 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "614a7d5c-9ea0-4a79-b372-e203c5bd33c8")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
+					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -7591,150 +7879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 190.5 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "467885c4-8475-4961-964e-02c81ddf0ccf")
-		(property "Reference" "C38"
-			(at 194.056 80.772 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF 63V"
-			(at 194.056 83.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 191.4652 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 190.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_NAME" ""
-			(at 190.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 190.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 190.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" ""
-			(at 190.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75c66a5e-b142-49be-a08a-c53ed8695d73")
-		)
-		(pin "2"
-			(uuid "e4ebe94d-f9f2-4d9a-96fb-d6c7d81403dd")
-		)
-		(instances
-			(project "Wheelbase"
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
-					(reference "C40")
-					(unit 1)
-				)
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
-					(reference "C38")
-					(unit 1)
-				)
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "AON7262E_4")
 		(lib_id "AON7262E:AON7262E")
 		(at 189.23 60.96 0)
@@ -8064,7 +8208,7 @@
 	(symbol
 		(lib_name "AON7262E_1")
 		(lib_id "AON7262E:AON7262E")
-		(at 162.56 60.96 0)
+		(at 162.56 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8074,7 +8218,7 @@
 		(dnp no)
 		(uuid "568ce5be-f71c-4cf1-8f98-68bbe3a3b997")
 		(property "Reference" "Q2"
-			(at 167.64 55.372 0)
+			(at 167.64 57.912 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,7 +8229,7 @@
 			)
 		)
 		(property "Value" "AONR62818"
-			(at 169.418 57.912 0)
+			(at 169.418 60.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,7 +8240,7 @@
 			)
 		)
 		(property "Footprint" "AON7262E"
-			(at 184.15 155.88 0)
+			(at 184.15 158.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8108,7 +8252,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7262E.pdf"
-			(at 184.15 255.88 0)
+			(at 184.15 258.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8120,7 +8264,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 60.96 0)
+			(at 162.56 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8131,7 +8275,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 184.15 455.88 0)
+			(at 184.15 458.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8143,7 +8287,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 184.15 555.88 0)
+			(at 184.15 558.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8155,7 +8299,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 184.15 655.88 0)
+			(at 184.15 658.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +8311,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 184.15 755.88 0)
+			(at 184.15 758.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8179,7 +8323,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AON7262E"
-			(at 184.15 855.88 0)
+			(at 184.15 858.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8191,7 +8335,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 162.56 60.96 0)
+			(at 162.56 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8202,7 +8346,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 162.56 60.96 0)
+			(at 162.56 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8213,7 +8357,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 162.56 60.96 0)
+			(at 162.56 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8224,7 +8368,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 162.56 60.96 0)
+			(at 162.56 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8235,7 +8379,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 162.56 60.96 0)
+			(at 162.56 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8634,7 +8778,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 212.09 38.1 0)
+		(at 212.09 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8645,7 +8789,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ef81087-7eb3-48d4-9dc7-c4973a862f6e")
 		(property "Reference" "#PWR013"
-			(at 212.09 41.91 0)
+			(at 212.09 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8656,7 +8800,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 212.09 33.02 0)
+			(at 212.09 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8666,7 +8810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 38.1 0)
+			(at 212.09 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8677,7 +8821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 38.1 0)
+			(at 212.09 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8688,7 +8832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 212.09 38.1 0)
+			(at 212.09 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8811,150 +8955,6 @@
 			(project "Driver"
 				(path "/cd328f1a-658d-4084-a2e0-41baf4e02fa8"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 212.09 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ce9852e-5c3e-4ce1-ba39-2b3ac309b20a")
-		(property "Reference" "C41"
-			(at 215.646 80.772 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF 63V"
-			(at 215.646 83.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 213.0552 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_NAME" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f64abad-8cbd-44e8-9014-436ad9b731aa")
-		)
-		(pin "2"
-			(uuid "1853a438-b06e-4349-90fc-3763c82595e9")
-		)
-		(instances
-			(project "Wheelbase"
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
-					(reference "C43")
-					(unit 1)
-				)
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
-					(reference "C41")
-					(unit 1)
-				)
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
-					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -9110,156 +9110,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 133.35 54.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "790575de-d89a-4d69-805c-37f37203b864")
-		(property "Reference" "R4"
-			(at 129.794 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3K"
-			(at 131.318 53.848 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 135.128 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 133.35 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_NAME" ""
-			(at 133.35 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 133.35 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 133.35 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" ""
-			(at 133.35 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f33cb5b2-ecdf-4872-a927-dbf8a80fee85")
-		)
-		(pin "2"
-			(uuid "ed6883bf-5106-4b76-87f1-b6bb3aca0a4b")
-		)
-		(instances
-			(project "Wheelbase"
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
-					(reference "R4")
-					(unit 1)
-				)
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "Driver"
-				(path "/cd328f1a-658d-4084-a2e0-41baf4e02fa8"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 162.56 82.55 0)
+		(at 215.9 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9267,9 +9119,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7b77adb6-8b0c-4e8b-9b9a-5613b341a781")
-		(property "Reference" "C35"
-			(at 166.116 80.772 0)
+		(uuid "7b3f2629-8de9-46b2-bf4c-9c08fbbe78f4")
+		(property "Reference" "C41"
+			(at 214.122 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9279,8 +9131,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 63V"
-			(at 166.116 83.312 0)
+		(property "Value" "1uF 50V X7R"
+			(at 216.662 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9290,8 +9142,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 163.5252 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 219.71 34.5948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9302,7 +9154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 82.55 0)
+			(at 215.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9312,8 +9164,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 162.56 82.55 0)
+		(property "Description" "FCC0805B105K500FT"
+			(at 215.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9324,7 +9176,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 162.56 82.55 0)
+			(at 215.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9335,7 +9187,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 162.56 82.55 0)
+			(at 215.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9346,7 +9198,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 162.56 82.55 0)
+			(at 215.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9357,7 +9209,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 162.56 82.55 0)
+			(at 215.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9368,7 +9220,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 162.56 82.55 0)
+			(at 215.9 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,23 +9231,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "030f770a-9203-4038-ac34-3b3578c473ca")
+			(uuid "f74b9905-a392-49b7-9097-98c8ff2ee7e6")
 		)
 		(pin "2"
-			(uuid "99f7cbaf-be82-4e90-8fc7-84c3827bb96c")
+			(uuid "25083973-e2e3-473c-8852-7118f3fdd30c")
 		)
 		(instances
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
-					(reference "C37")
+					(reference "C43")
 					(unit 1)
 				)
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
-					(reference "C35")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
-					(reference "C36")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -9553,6 +9405,150 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 194.31 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85cb25a9-162f-4306-a737-5ee8dbc7e359")
+		(property "Reference" "C38"
+			(at 192.532 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 50V X7R"
+			(at 195.072 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 198.12 34.5948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FCC0805B105K500FT"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee6284b0-9472-4764-be8a-a6253463d9c0")
+		)
+		(pin "2"
+			(uuid "f8bdeef7-5ba6-4e51-8a36-2d60b10cb877")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 36.83 146.05 180)
 		(unit 1)
@@ -9702,7 +9698,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 73.66 180)
+		(at 162.56 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9712,7 +9708,7 @@
 		(dnp no)
 		(uuid "8a99200a-a1ee-48a8-b32c-ef13142110d2")
 		(property "Reference" "R9"
-			(at 159.004 73.406 90)
+			(at 159.004 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9722,7 +9718,7 @@
 			)
 		)
 		(property "Value" "10mΩ"
-			(at 160.528 72.898 90)
+			(at 160.528 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9732,7 +9728,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 164.338 73.66 90)
+			(at 164.338 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9743,7 +9739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 73.66 0)
+			(at 162.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9754,7 +9750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 73.66 90)
+			(at 162.56 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9765,7 +9761,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 162.56 73.66 90)
+			(at 162.56 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9776,7 +9772,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 162.56 73.66 90)
+			(at 162.56 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9787,7 +9783,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 162.56 73.66 90)
+			(at 162.56 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9798,7 +9794,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 162.56 73.66 90)
+			(at 162.56 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9809,7 +9805,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 162.56 73.66 90)
+			(at 162.56 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10481,6 +10477,92 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 170.18 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8bbc21e-3194-4d6e-b93f-049c91e2aa26")
+		(property "Reference" "#PWR087"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cec013f-1528-4545-a456-dc1ea481cf0c")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/01afca1a-7df8-4c9d-beb9-daf0fa9a47e7"
+					(reference "#PWR089")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/648a63c2-98bb-4a55-8060-a29b398ce272"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6/fb684b4b-b2b1-40ba-bbaa-616e66514ca4"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 39.37 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -10905,7 +10987,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 86.36 0)
+		(at 212.09 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10916,7 +10998,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca6eb6b4-8c8b-4210-8f37-440963187f89")
 		(property "Reference" "#PWR067"
-			(at 212.09 92.71 0)
+			(at 212.09 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10927,7 +11009,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 91.44 0)
+			(at 212.09 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10937,7 +11019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 86.36 0)
+			(at 212.09 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10948,7 +11030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 86.36 0)
+			(at 212.09 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10959,7 +11041,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 86.36 0)
+			(at 212.09 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +11555,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 86.36 0)
+		(at 162.56 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11484,7 +11566,7 @@
 		(fields_autoplaced yes)
 		(uuid "e233f429-381c-4af7-b782-3bbec2403fd2")
 		(property "Reference" "#PWR027"
-			(at 162.56 92.71 0)
+			(at 162.56 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11495,7 +11577,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 91.44 0)
+			(at 162.56 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11505,7 +11587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 86.36 0)
+			(at 162.56 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11516,7 +11598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 86.36 0)
+			(at 162.56 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11527,7 +11609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 86.36 0)
+			(at 162.56 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11559,7 +11641,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 162.56 36.83 0)
+		(at 162.56 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11570,7 +11652,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6a4dbea-e45e-4231-9dcd-f042ad4feb7f")
 		(property "Reference" "#PWR0103"
-			(at 162.56 40.64 0)
+			(at 162.56 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11581,7 +11663,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 162.56 31.75 0)
+			(at 162.56 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11591,7 +11673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 36.83 0)
+			(at 162.56 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11602,7 +11684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 36.83 0)
+			(at 162.56 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11613,7 +11695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 162.56 36.83 0)
+			(at 162.56 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
