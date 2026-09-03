@@ -755,7 +755,7 @@
 			(uuid "bc38c070-b7a5-4b97-952b-9c214f5fb954")
 		)
 		(embedded_fonts no)
-		(model "/home/medved/repos/SemuBot-PCB/SemuBot_WheelBase/library/10155435-00011LF.step"
+		(model "${KIPRJMOD}/../library/10155435-00011LF/10155435-00011LF.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8381,7 +8381,7 @@
 			(uuid "508570a8-4f4e-4aa4-9232-cb110fac2475")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9007,7 +9007,7 @@
 			(uuid "21731c7a-3995-44a6-a997-84bc64b57d08")
 		)
 		(embedded_fonts no)
-		(model "DRV8353FSRTAR.stp"
+		(model "${KIPRJMOD}/../library/DRV8353FSRTAR/DRV8353FSRTAR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9506,7 +9506,7 @@
 			(uuid "f5aefe40-9e5d-49ff-848c-38d152a552a9")
 		)
 		(embedded_fonts no)
-		(model "/home/medved/Downloads/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
+		(model "${KIPRJMOD}/../library/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11401,7 +11401,7 @@
 			(uuid "bd0b6478-38da-4ebe-b25c-b282cf9b3c79")
 		)
 		(embedded_fonts no)
-		(model "/home/medved/Downloads/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
+		(model "${KIPRJMOD}/../library/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12112,7 +12112,7 @@
 			(uuid "29d2c020-c22f-48e8-9575-f9a9c06496e7")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13248,7 +13248,7 @@
 			(uuid "8d896d3e-8788-420e-92c3-909448b9c445")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13984,7 +13984,7 @@
 			(uuid "120eac79-0eda-4ea2-91c7-0f32c7b1558b")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14483,7 +14483,7 @@
 			(uuid "c77e48a3-f7d9-472c-8408-fbdc8a4a3ce6")
 		)
 		(embedded_fonts no)
-		(model "/home/medved/Downloads/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
+		(model "${KIPRJMOD}/../library/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15410,7 +15410,7 @@
 			(uuid "9a13c678-76a3-46a8-a894-5cf685cbdeb5")
 		)
 		(embedded_fonts no)
-		(model "/home/medved/Downloads/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
+		(model "${KIPRJMOD}/../library/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21704,7 +21704,7 @@
 			(uuid "cae0b09e-07a3-4bf9-a047-f124e3a767f0")
 		)
 		(embedded_fonts no)
-		(model "DRV8353FSRTAR.stp"
+		(model "${KIPRJMOD}/../library/DRV8353FSRTAR/DRV8353FSRTAR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22713,7 +22713,7 @@
 			(uuid "1d5cd5d6-66e8-42e6-a501-b1885f8fb21f")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23614,7 +23614,7 @@
 			(uuid "9aecd97d-8eac-4a35-a887-49efc30b8577")
 		)
 		(embedded_fonts no)
-		(model "DRV8353FSRTAR.stp"
+		(model "${KIPRJMOD}/../library/DRV8353FSRTAR/DRV8353FSRTAR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24540,7 +24540,7 @@
 			(uuid "0dd0e137-bd7b-4571-99e0-97d15fec3f79")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25193,7 +25193,7 @@
 			(uuid "85b5d513-f74c-472a-b883-4b2eac2e236d")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26606,7 +26606,7 @@
 			(uuid "2b363b84-b0b5-452c-9f16-a6d6d5a46617")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27535,7 +27535,7 @@
 			(uuid "fd6a0317-d287-4447-ae97-25eb508b5e80")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28670,7 +28670,7 @@
 			(uuid "6b572897-018b-4ea2-9d5e-9e4183520ae8")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29381,7 +29381,7 @@
 			(uuid "fb3fd1da-ee5a-4fe0-9862-0e8314ed9c34")
 		)
 		(embedded_fonts no)
-		(model "/home/medved/Downloads/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
+		(model "${KIPRJMOD}/../library/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30032,7 +30032,7 @@
 			(uuid "8a75a70a-86f7-496e-92a2-43441dafa76e")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34905,7 +34905,7 @@
 			(uuid "67d8ea43-fb08-48b6-b633-6e234786306a")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38962,7 +38962,7 @@
 			(uuid "bf7b5cc4-9224-4ae4-8624-924f41f75bac")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40648,7 +40648,7 @@
 			(uuid "001fe6e4-17d9-4660-8ce9-13e36eae36eb")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41624,7 +41624,7 @@
 			(uuid "dd5ba8ad-88b5-408d-8322-caf2a79877dd")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42553,7 +42553,7 @@
 			(uuid "9bd0b730-0ac0-4d8b-9c81-79f53a75063c")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44431,7 +44431,7 @@
 			(uuid "9be4def9-14d1-4de7-af5d-711ccf501b22")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46510,7 +46510,7 @@
 			(uuid "4b7d7f6b-9716-401a-8a2b-0331dbc72c99")
 		)
 		(embedded_fonts no)
-		(model "AON7262E.stp"
+		(model "${KIPRJMOD}/../library/AON7262E/AON7262E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49564,7 +49564,7 @@
 			(uuid "9d8cb3e6-d221-470a-b81f-821da05578c9")
 		)
 		(embedded_fonts no)
-		(model "/home/medved/Downloads/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
+		(model "${KIPRJMOD}/../library/B5B-XH-A_LF__SN_/B5B-XH-A_LF__SN_.step"
 			(offset
 				(xyz 0 0 0)
 			)

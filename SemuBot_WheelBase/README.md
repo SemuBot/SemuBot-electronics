@@ -2,26 +2,26 @@
 
 ## Overview
 
-This project implements a BLDC motor control wheelbase using an STM32 microcontroller, 3-phase gate drivers, and high-precision current sensing.
+This project implements a 3-motor BLDC wheelbase controller using an STM32G4 microcontroller and three independent 3-phase gate-driver/MOSFET power stages, one per wheel.
 
 ---
 
 ## Components
 
 ### Microcontroller
-* **STM32F303RET6**
+* **STM32G474RET6**
+  Main controller (LQFP-64).
 
-### BLDC Driver
-* **DRV8353FSRTAR**
-  3-phase gate driver for MOSFET control.
-
-### Current Sensing
-* **ADS131M03IRUKT**
-  3-channel, 24-bit, simultaneous-sampling Delta-Sigma ADC for current measurement.
+### BLDC Drivers
+* **DRV8353FSRTAR** (x3)
+  3-phase gate driver with integrated current-shunt amplifiers, one per motor.
 
 ### MOSFETs
-* **AON7262E**
-  N-channel MOSFETs for power stage switching.
+* **AON7262E** (x18)
+  N-channel MOSFETs for the power stage, 6 per motor (3-phase half-bridges).
+
+### Current Sensing
+* 9x 10 mΩ shunt resistors (2512 package), 3 per motor, read out through each DRV8353's integrated current-shunt amplifiers.
 
 ### Voltage Regulation
 * **RT9013-33GB**
@@ -31,40 +31,41 @@ This project implements a BLDC motor control wheelbase using an STM32 microcontr
 * **XT30PW-M**
   Main DC power input connector.
 
-* **MR30PW-M**
-  Motor phase power connection.
+* **MR30PW-M** (x3)
+  Motor phase power connectors, one per motor.
 
 * **10155435-00011LF (Amphenol)**
   USB Type-C connector.
 
-* **B5B-XH-A_LF__SN_ (JST XH)**
-  5-pin connector for peripherals (e.g., Hall/Sensor inputs).
+* **B5B-XH-A_LF(SN) (JST XH)** (x6)
+  5-pin connectors for Hall/sensor inputs.
+
+* **MTSW-104-09-L-S-400 (Samtec)**
+  4-pin header, general purpose/debug I/O.
 
 * **DS1013-10SSIB1**
-  General purpose I/O connector.
+  10-pin connector for general purpose I/O.
 
-### ESD Protection
+### ESD / Overvoltage Protection
 * **PRTR5V0U2X**
-  ESD protection for data lines.
+  ESD protection for data lines (standard KiCad library part).
+* **SMCJ33A**
+  33V TVS diode for transient/overvoltage protection.
+* **BZX84C3V3**
+  3.3V zener diode.
 
 ### Timing & Clock
-* **ECS-2520MVLC-081.92-CN-TR**
-  8.192 MHz Oscillator.
 * **X322516MLB4SI**
-  Secondary oscillator for system timing.
+  Crystal resonator for the STM32's HSE clock.
 
 ### User Interface
-* **SWT0211-050010GSA_REVA**
-  Tactile switch for system reset or user input.
+* 1x green + 4x red status LEDs.
 
 ---
 
 ## Technical Summary
 
 ### Power Stage
-* **MOSFETs:** 18x AON7262E
+* **MOSFETs:** 18x AON7262E (6 per motor)
 * **Gate Drivers:** 3x DRV8353FSRTAR
-* **Current Sense Resistors:** 9x 10mΩ (2512 package)
-
-
-
+* **Current Sense Resistors:** 9x 10mΩ (2512 package), read via the DRV8353's built-in current-shunt amplifiers (no separate current-sense ADC on this revision)
